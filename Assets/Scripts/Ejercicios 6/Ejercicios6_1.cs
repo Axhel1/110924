@@ -12,16 +12,23 @@ public class Ejercicios6_1 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (x && y)
-        {
+        //a) (X && Y) || (X && Z)
+        //Respuesta=True
 
-            Debug.Log("True");
+        //b) (X || !Y)&& (!X || Z)
+        //Respuesta=True
 
-        }
-        else {
+        //c) X || Y && Z
+        //Respuesta=True
 
-            Debug.Log("Falso");
-        }
+        //d) !(X || Y) && Z
+        //Respuesta=False
+
+        //e) X || Y || X && !Z && !Y
+        //Respuesta=True
+
+        //f) !X || Y || Z && X && !Y
+        //Respuesta=True
     }
 
     // Update is called once per frame
