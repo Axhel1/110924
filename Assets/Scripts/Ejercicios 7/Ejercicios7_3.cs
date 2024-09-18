@@ -2,17 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ejercicios7_1 : MonoBehaviour
+public class Ejercicios7_3 : MonoBehaviour
 {
-    int numero = 1;
+    int numero = 100;
     // Start is called before the first frame update
     void Start()
     {
-        while (numero > 101)
+        while (numero > 0)
         {
 
             Debug.Log(numero);
-            numero++;
+            numero--;
         }
     }
 
