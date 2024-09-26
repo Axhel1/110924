@@ -2,23 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ejercicios7_9 : MonoBehaviour
+public class Ejercicios7_11 : MonoBehaviour
 {
     [SerializeField]int num;
     // Start is called before the first frame update
     void Start()
     {
-        for (int i = 1; i <= num; i++) {
-
-            if (i%3 == 0) {
-
-                Debug.Log(i);
-            
-            }
-
+        Debug.Log("Tabla del: " + num);
+        for (int i = 0; i <= 10; i++)
+        {
+            Debug.Log(num + " X " + i + " = "+ (num*i));
         }
-
-
     }
 
     // Update is called once per frame
